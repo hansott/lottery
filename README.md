@@ -20,7 +20,7 @@ $ composer require hansott/lottery
 ## Usage
 
 ``` php
-$lotteryFactory = new \HansOtt\LotteryFactoryDefault();
+$lotteryFactory = new \HansOtt\Lottery\LotteryFactoryDefault();
 $lottery = $lotteryFactory->getLottery();
 $ticket = new \HansOtt\Lottery\Ticket(1, 100); // 1% chance to win
 $won = $lottery->isLucky($ticket);
